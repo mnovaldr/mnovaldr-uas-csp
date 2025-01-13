@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mawar Fotocopy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mawar Fotocopy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mt-4">
+        <h1 class="text-center">Contact Us</h1>
+        <p class="text-center">
+            Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, jangan ragu untuk menghubungi kami. Kami akan dengan senang hati membantu Anda.
+        </p>
+
+        <!-- Contact Form -->
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="mailto:mawarfotocopysekarpuro@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Telepon:</label>
+                        <input type="number" id="phone" name="phone" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Pesan:</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                  <!-- Google Maps Embed -->
+                  <div class="row justify-content-center mt-4">
+                      <div class="col-md-8">
+                          <div class="ratio ratio-16x9">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.2677598077867!2d112.67293324911189!3d-7.971255465521034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62942c5e0810f%3A0x783c805b185f3870!2sMawar%20Fotocopy!5e0!3m2!1sid!2sid!4v1731587062738!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                <h1>Mawar Fotocopy</h1>
+                <p>Jl. Mawar No.Dalam, Penjaraan, Sekarpuro, Kec. Pakis, Kabupaten Malang, Jawa Timur 65154</p>
+                <a href="" class="btn btn-outline-warning text-black">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>
+                <a href="https://wa.me/+6285733541153" class="btn btn-outline-success text-black">
+                    <i class="bi bi-whatsapp"></i> Whatsapp
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <div class="container">
+            &copy;2025 | Made with <span class="text-danger">&hearts; </span> by<a target="_blank" href="https://mnovaldr.github.io/novaldr" class="text-white">Muhammad Noval Dwi Ramadhani.</a>All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

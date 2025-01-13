@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Exo 2';
+
+}
+.table, th, td {
+    border: 3px solid #f0e68c;
+    border-collapse: collapse;
+    border-spacing: 30px;
+    padding: 8px;
+}
+td {
+    padding: 10px;
+}
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: red;
+    color: white;
+  }
